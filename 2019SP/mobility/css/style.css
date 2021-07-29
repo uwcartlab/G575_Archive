@@ -1,0 +1,176 @@
+/* Stylesheet by GeoDS 2019 */
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+#map {
+    height:88%;
+    width:85%;
+    display: inline-block;
+}
+
+
+.legend {
+    line-height: 22px;
+    color: #555;
+}
+.legend i {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+
+.title-container {
+    width: 400px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    line-height: 45px;
+    text-align: center;
+	font: 24px/28px Arial, Helvetica, sans-serif;
+	font-weight: 600;
+
+}
+
+.chartBackground {
+    fill: rgba(240,248,255);
+}
+
+.bar_distance{
+	fill: rgba(135,206,235);
+	stroke: rgba(25,25,112);
+    stroke-width: 0.5px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.infolabel {
+    margin: 0 10px 0 0;
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 5px;
+    top: -5px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.bar_income text {
+  fill: #000;
+  font: 8px sans-serif;
+}
+
+.bar_rent text {
+  fill: #000;
+  font: 8px sans-serif;
+}
+
+.bar_unemploy text {
+  fill: #000;
+  font: 8px sans-serif;
+}
+
+.ticks {
+      font-size: 10px;
+    }
+
+    .track,
+    .track-inset,
+    .track-overlay {
+      stroke-linecap: round;
+    }
+
+    .track {
+      stroke: #dcdcdc;
+      stroke-width: 10px;
+    }
+
+    .track-inset {
+      stroke: #dcdcdc;
+      stroke-width: 8px;
+    }
+
+    .track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: crosshair;
+    }
+
+    .handle {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+    }
+
+.ticks_rent {
+      font-size: 10px;
+    }
+
+.track_rent,
+    .track-inset_rent,
+    .track-overlay_rent {
+      stroke-linecap: round;
+    }
+
+    .track_rent {
+      stroke: #dcdcdc;
+      stroke-width: 10px;
+    }
+
+    .track-inset_rent {
+      stroke: #dcdcdc;
+      stroke-width: 8px;
+    }
+
+    .track-overlay_rent {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: crosshair;
+    }
+
+    .handle_rent {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+    }

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+      	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css"/>
+      	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--put fonts here-->
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+
+
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+
+
+         <!--you can also place internal styles here;
+             place these within <style> tags-->
+
+    </head>
+
+    <body id='body'>
+        <!--put your initial page content here-->
+
+        <!--you can also use this space for internal scripts;
+        place these within <script> tags-->
+
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">This is a link button</a> -->
+                    </li>
+                </li>
+            </div>
+        </nav>
+
+        <div class = "container-fluid"> <!-- start of main container -->
+
+          <!-- title -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class = "header">
+                  <h1>Collected:</h1>
+                  <h3>Where are collections from and where do they go?</h3>
+                  <hr width="700px">
+                  <p>Created by Zoey Colglazier, Jake Hildebrand, Brody Manquen, and Nick Smith</p>
+                  <hr width="600px">
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- intro -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p><b>Where do museum artifacts come from, and what happens when the cultures they were stolen from want them back?</b> In compliance with federal laws, institutions around the country are now required to catalog human remains and associated funerary objects in their collections in an effort to return, or repatriate, these items to the cultures that they belong to. However, this effort has been more like a bandaid than a real solution, and the lack of planning of the future has left thousands of remains and artifacts still in records, labelled culturally unidentifiable, or not eligible for repatriation.</p>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- choro map -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h3>Repatriations by State</h3>
+                <div id='map'></div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- repatriation overview -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p><span class='tab'></span><b>Repatriation</b> refers to the return of human remains, funerary objects, sacred objects, and objects of cultural patrimony to lineal descendents, culturally affiliated Native American tribes, Alaska Native clans or villages, and Native Hawaiian organizations. Beginning in 1989 with the National Museum of the American Indian (NMAI) Act, the Smithsonian Institution was required to maintain records of remains and funerary objects, and if claimed, return. In 1996 an amendment to the act included unassociated funerary objects, sacred objects, and other objects of cultural patrimony. Other laws, such as the Native American Grave Protection and Repatriation Act (hereafter referred to as NAGPRA), impacted other institutions across the country. Museums must post a notice about the item or remains, where it came from, how it was collected, and to who it is culturally affiliated (if known) in the Federal Register. First Nations then receive a notice when a case is added to the Federal Register that is culturally affiliated with them, and have the option of claiming it and therefore having the item repatriated to them. An important caveat about repatriation is that it doesn’t affect everything held in museum collections. For the National Museum of the American Indian, only 3% (or 25,000 items) fall into the four categories that require posting of repatriation ability.</p>
+
+                <p><span class='tab'></span>Most of the artifacts in museums that are posted for repatriation were taken on authorized archaeological digs by museums or universities, but there are cases where remains or objects were taken on “non-legally authorized” excursions. These are then later donated to institutions, held in collections, or sometimes kept by private individuals until years after their removal. In the 1920s, a federal investigation by the U.S. Fish and Wildlife Service into illegal trafficking of Native American remains seized the remains of an approximately 24-year-old woman, who is estimated to have lived between 1030 and 1290 CE near Ottawa, IL. The remains were culturally affiliated with the Ho-Chunk Nation of Wisconsin and the Winnebago Tribe of Nebraska and was marked as repatriated in 2005.</p>
+
+                <p><span class='tab'></span>Another prominent case comes from the Robert Grignon Trading Post site near Winnebago, WI. Around 1936, Arthur Kannenberg of the Oshkosh Public Museum removed remains from a grave marked with a tombstone reading: “Mary/wife of/Robert Grignon/died Dec 24, 1851/age/37 years”. Supposedly the remains were re-buried, apart from two vertebrae and two teeth that are now held by the Oshkosh Public Museum. Mary was identified by an account written at the same time as the excavation as the daughter of a full-blooded Menominee chief, and other sources report her Menominee name as Wak-nau-go-lak.</p>
+
+                <p><span class='tab'></span>While the NAGPRA database is useful and has led to successful repatriations, the administrative team that manages the program is very small, and can not update the online database as frequently as needed. In addition, the database is not required to post if a successful repatriation has occurred - they must post the notice that was added to the Federal Register. From there, culturally affiliated tribes (of which, there can be many) have 30 days to claim, or contest the institution’s designation. When many tribes are listed, they often come to an agreement of who will make the claim (not always amicably). This could mean joint reburial, or repatriation to one Nation only. There is also the problem of NAGPRA implementation. Lack of future planning meant that many institutions recorded remains and other objects as culturally unidentifiable in order to get everything ready before the original deadline, with the intention to go back and research origins later. Many later updated culturally affiliated tribes, but they weren’t always updated to the correct database.</p>
+
+                <p><span class = 'tab'></span>The below map shows institutions and reservations in Wisconsin that are in the NAGPRA database. Clicking on institutions will show which counties they took remains or objects from, and clicking on reservations will show which institutions have repatriated items to them.</p>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- flowmap -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <h3>Repatriations in Wisconsin</h3>
+              <div class="row"> <!-- this row contains the map and panel -->
+                <div class="col-md-8">
+                    <div id='flowmap'></div>
+                </div>
+                <div class="col-md-4 paneltext">
+                  <h4>Repatriation Info</h4>
+                  <div id="flowpanel"><em>Click on a Reservation or Institution to see more information.</em></div>
+                </div>
+              </div>
+              <div class="row" style="margin: 0 0 20px 0;"> <!-- this row contains the legend -->
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <svg id = 'flowlegend' style="width: 185px; height: 115px;"></svg>
+                </div>
+                <div class="col-md-8"></div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- wisconsin repatriation info -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p><span class='tab'></span>Due to a high concentration of mound structures, Wisconsin (and particularly southern Wisconsin) is considered to be the center of the Mound Cultures. They are protected by the 1985 Wisconsin Act 316, which protects all burial sites regardless of whether they look like traditional cemeteries. Because of this state law, anyone wishing to move or dig into the mounds requires permits and permissions regardless of being on private or public property. However, by the time legislation had been enacted, many had already been disturbed or destroyed. A recent legal case in the capital city of Madison, WI, saw the state Supreme Court deny permits for mining to the Wingra Red-Mix corporation (operated as Wingra Stone Company) in 2018. Wingra argued that because the mounds in question were not thought to be burial mounds, but instead effigy mounds, that they should not receive the same protections and that a permit to mine should be issued. However, the Wisconsin Historical Society had designated these mounds as protected burial sites, as they were the last two remaining intact after the others, known as the Ward Mound Group were destroyed. The Wisconsin Supreme Court did not issue a statement or reasoning for their decision.</p>
+
+                <p><span class='tab'></span>Wisconsin Effigy Mounds are generally recorded into three categories: Intact, Partially Destroyed, Destroyed, or Unknown. Intact means that the mounds (or most of the mounds in the group) are still whole and undisturbed. Destroyed means the opposite - the mounds or most of the mounds in the group were disturbed by people. The last category, Unknown, is used when a mound group is no longer in its reported location, but whether it’s because of erosion, a geologic event, human intervention, or inaccuracies in the original report is unknown.</p>
+
+                <p><span class='tab'></span>Zoom into the below map to see mound groups in southwestern Wisconsin, and click on mounds to view more information.</p>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- effigy mound map -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <h3>Effigy Mounds in Southwestern Wisconsin</h3>
+              <div class="row"> <!-- this row contains the map and panel -->
+                <div class="col-md-6">
+                    <div id='main'>
+                      <!-- <svg id='moundmap' class="aperture" width="400" height="250" viewBox="0 0 400 250" preserveAspectRatio="none"></svg> -->
+                        <svg class="aperture" width="400" height="250" viewBox="0 0 400 250" preserveAspectRatio="none">
+                        <!-- <svg id="base" width="400" height="250"> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="moundmini">
+                      <svg viewBox="0 0 400 250"><use xlink:href="#moundmap"></svg></div>
+                </div>
+              </div>
+              <div class="row" style="padding: 0 0 2em 0"> <!-- this row contains the panel and legend -->
+                <div class="col-md-6">
+                  <div class="paneltext">
+                      <h4>Mound Info</h4>
+                      <div id="moundpanel"><p><em>Hover over a point to see more information.</em></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <svg id = 'moundlegend' style="width: 185px; height: 115px;"></svg>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- effigy mound info -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <!--<div id = 'moundinfo'></div>-->
+                <p><span class='tab'></span>Within Wisconsin, repatriation is often to the Ho-Chunk Nation of Wisconsin, the Bad River, Red Cliff, Lac Courte Oreilles, Lac du Flambeau and St. Croix Bands of Lake Superior Chippewa Indians, the Forest County Potawatomi Community, Oneida Tribe of Wisconsin, and the Menominee Indian Tribe. Because of the extent of traditional tribal lands, repatriations from other states are not uncommon, and multiple tribes from various states can be listed as culturally affiliated with the items. For Wisconsin cases with multiple culturally affiliated tribes, the Wisconsin Inter-Tribal Repatriations Committee (WITRC), a subcommittee of the Great Lakes Inter-Tribal Council (GLITC), handles repatriation issues between Nations. If an institution identifies multiple Wisconsin Nations as culturally affiliated, they’ll work things out among them. Usually the Ho-Chunk Nation of Wisconsin will take the lead when they’re involved in a multi-Nation repatriation.</p>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- break -->
+          <div class="row" style="padding: 2em 0 3em 0">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <hr>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <!-- end info -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 paneltext">
+              <div class="row">
+                <div class="col-md-6">
+                    <h4>References:</h4>
+                    <ul>
+                      <li><a href='https://www.nps.gov/subjects/nagpra/databases.htm'>NAGPRA database</a></li>
+                      <li><a href='https://americanindian.si.edu/explore/repatriation'>National Musuem of the American Indian</a></li>
+                      <li><a href='https://madison.com/ct/news/local/govt-and-politics/deadlocked-state-supreme-court-decision-protects-effigy-mounds/article_01929741-e9ba-5650-a2bf-e31d42ff0e87.html'>Wingra Stone Company case</a></li>
+                      <li><a href='https://www.wisconsinhistory.org/Records/Article/CS3122'>Wisconsin Historical Society</a></li>
+                      <li><a href='https://dnr.wi.gov/topic/Lands/CulturalRes/mounds.html'>Wisconsin DNR</a></li>
+                      <li><a href='https://books.google.com/books/about/Every_Family_a_Nation.html?id=L0LgnQAACAAJ'>Every Family a Nation: A Deconstruction and Reconstruction of the Effigy Mound 'culture' of the Western Great Lakes of North America</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>For more information, please visit:</h4>
+                    <ul>
+                      <li><a href="https://www.nps.gov/subjects/nagpra/index.htm">NAGPRA website</a></li>
+                      <li><a href='http://www.glitc.org/index.html?status=viewfull'>Great Lakes Inter-Tribal Council (GLITC) website</a></li>
+                      <li><a href='https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/'>Effigy Mounds FAQ</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+        </div>  <!-- end of main container -->
+
+        <!-- footer -->
+        <div class="footer"></div>
+
+        <!--put your external script links here-->
+        <script type = 'text/javascript' src= "lib/jquery-3.4.1.js"></script>
+        <script type = 'text/javascript' src= "lib/topojson.js"></script>
+        <script type = 'text/javascript' src = "lib/d3.js"></script>
+        <script type = 'text/javascript' src = "lib/simple-statistics.min.js"></script>
+        <script type= "text/javascript" src= "lib/bootstrap.min.js"/></script>
+        <script type= "text/javascript" src= "lib/bootstrap.bundle.min.js"/></script>
+        <script type= "text/javascript" src= "js/main.js"></script>
+    </body>
+</html>

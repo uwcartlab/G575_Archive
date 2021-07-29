@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Wisconsin School Vaccinations</title>
+
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="lib/noUiSlider-13.1.5/nouislider.css">
+        <link rel="stylesheet" href="lib/search/leaflet-search.src.css">
+		<link rel="stylesheet" href="css/style.css">
+        
+        <script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="lib/leaflet.js"></script>
+        <script type="text/javascript" src="lib/noUiSlider-13.1.5/nouislider.min.js"></script>
+        <script type="text/javascript" src="lib/wNumb.js"></script>
+        <script type="text/javascript" src="lib/search/leaflet-search.src.js"></script>
+        <script type="text/javascript" src="js/VaxData.js"></script>
+        <script type="text/javascript" src="js/Counties.js"></script>
+        <script type="text/javascript" src="js/Districts.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+		
+
+	</head>
+
+	<body>
+        
+        <div id="map"></div>
+                
+        <div id="welcomeWrapper">
+            <p>School children are mandated by law to receive certain vaccinations. In order for herd immunity to be effective, 95% of the population needs to be vaccinated in order to protect those who cannot receive vaccinations for medical reasons. 
+            </p>
+            <p>Explore Wisconsin's public school vaccination rates by clicking on any dot on the map. Each dot represents one public school.</p>
+            <p>Use the slider on the right side of the map to filter schools by the percentage of students who have reported being up-to-date on their mandatory vaccinations.</p>
+            <p class="click"><strong>Click anywhere on the map to start</strong></p>
+        </div>
+        
+        <div id="range"></div>
+        <input type="number" min='30' max='90' step='5' id="input-number-min">
+		<input type="number" min='40' max='100' step='5' id="input-number-max">
+                
+        <div class="footer">
+			<p>Map created by Ellie Milligan (emilliganmaps.github.io), Nick Exley, and Melanie Kohls (melanie-n-k.github.io)<br>Geography 575, University of Wisconsin-Madison Department of Geography, Spring 2019<br>Map Data from the Wisconsin Department of Public Instruction and the Wisconsin Department of Health Services</p>
+		</div>
+                        
+	</body>
+</html>

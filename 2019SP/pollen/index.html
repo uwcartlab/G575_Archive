@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--sets window specifications and title -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Ice Age Tree Explorer</title>
+
+		<!--external stylesheet links-->
+		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+		<link rel="stylesheet" href="lib/leaflet-panel-layers/src/leaflet-panel-layers.css">
+
+	</head>
+	<body>
+		<!--initial page content-->
+		<div id="mapid"></div>
+	  <div id="panel">
+
+			<h3>Ice Age Tree Explorer</h3>
+
+			<h2>Ice Age Tree Explorer</h2>
+			<img src="img/glacier.jpg" alt="Middle Teton glacier">
+
+			<div id="welcome">
+			<p>Welcome to the Ice Age Tree Explorer! This interactive map is designed
+			to allow you to explore data on North America's paleoecological history. Select a way of
+			expressing the data below: map view for an overview of pollen data, and data view for
+			more detailed information on sites where data has been collected. Then, use the controls
+			on the map to sequence through time, overlay ice sheets, and retrieve information on science
+			and context.</p>
+			</div>
+<!-- 			<h4>Select a taxa:</h4>
+			<div id="menu">
+				<select id="selector">
+					<option value="all">All Data</option>
+					<option value="spruce">Spruce</option>
+					<option value="oak">Oak</option>
+					<option value="hemlock">Eastern Hemlock</option>
+				</select>
+			</div>
+			<!--<h4>Sequence</h4>
+			<div id="sequence-control-container">
+			</div>-->
+		<div id ="expression">
+			<h4>Choose an Expression:</h4>
+			<button class="w3-button w3-hover-black"><a href="#" onclick="changeExpression('heat');"><img src="img/map.png"></a></button>
+			<button class="w3-button w3-hover-black"><a href="#" onclick="changeExpression('prop');"><img src="img/prop.png"></a></button>
+		</div>
+		<div id="footer">
+			<h4>Data: Pollen data was downloaded from the <a href="https://neotomadb.org">Neotoma Paleoecology Database</a>. Then, it was temporally interpolated to every 500 years.</h4>
+			<p> Cartography by Anna George, Megan Roessler, and Claire Stowe, University of Wisconsin-Madison, Geography 575, Spring 2019</p>
+		</div>
+		</div>
+
+		<!--external script links-->
+		<script type="text/javascript" src="lib/jquery-3.4.0.js"></script>
+		<script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+		<script type="text/javascript" src="lib/leaflet-panel-layers/src/leaflet-panel-layers.js"></script>
+		<script type="text/javascript" src="lib/leaflet/leaflet-heat.js"></script>
+<!--
+        <script type="text/javascript" src="lib/leaflet/heatmap.js"></script>
+        <script type="text/javascript" src="lib/leaflet/leaflet-heatmap.js"></script>
+-->
+		<!--<script type="text/javascript" src="js/main.js"></script>-->
+		<script type="text/javascript" src="js/main_heat.js"></script>
+
+
+
+<!--     <script type="text/javascript" src="js/main.js"></script> -->
+<!--		<script type="text/javascript" src="lib/leaflet/Gruntfile.js"></script>-->
+	</body>
+<script type="text/javascript">
+	let changeExpression = function(type) {
+		let elem = document.createElement("script");
+	if (type === 'heat') {
+		elem.src = "js/main_heat.js";
+	} else {
+		elem.src = "js/main.js";
+	}
+	map.off();
+	map.remove();
+
+	document.body.appendChild(elem);
+	}
+</script>
+</html>

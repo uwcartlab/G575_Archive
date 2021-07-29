@@ -1,0 +1,185 @@
+/* Stylesheet by Anna E. George, 2019 */
+
+/* defines map height, width, and display type*/
+#mapid {
+	height: 712px; /*had been 700px*/
+	width: 72%; /*had been 69%*/
+	display: inline-block;
+}
+#welcome {
+	font-family: 'Rubik', sans-serif;
+	text-align: justify;
+	padding: 10px;
+}
+#footer {
+	font-family: 'Rubik', sans-serif;
+	text-align: justify;
+	line-height: 14px;
+	font-size: 0.8em;
+	padding: 20px
+}
+
+
+.iceLayer {
+	opacity: 50%;
+	color: white;
+}
+
+/* Sets style for legend control container*/
+.legend-control-container {
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: left;
+    border: solid gray 1px;
+	box-shadow: 5px 8px 8px #888888;
+}
+
+/* Sets style for title container*/
+.title-control-container {
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+/* sets style for range slider, forward, and back button*/
+.range-slider {
+    width: 75%;
+}
+#forward {
+    float: right;
+		/*padding: 3px;
+		offset: 5px;*/
+}
+#reverse {
+    float: left;
+}
+
+#panel {
+	height: 700px;
+	width: 27%; /*had been 27%*/
+	display: inline-block;
+	float: left;
+	color: black;
+	background-color: #E5FFE5;
+	text-align: center;
+	border:  solid black 1px;
+	padding: 5px;
+	font-family: 'Rubik', sans-serif;
+}
+
+/* Sets style for sequence control container*/
+.sequence-control-container {
+    width: 400px;
+    height: 30px;
+	display: inline-block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+	position: absolute;
+	box-shadow: 5px 8px 8px #888888;
+}
+
+.expression {
+	position: absolute;
+	bottom: 0;
+}
+#footer {
+	color: black;
+	text-align: center;
+}
+body {
+	background:#b5d0d0;
+	color:#285585;
+	font-family:Arial;
+}
+body#panelLayers {
+	background:url('images/leaflet-panel.png') no-repeat top left #b5d0d0;
+	margin-left:200px;
+}
+
+/* a {
+	color:#1978cf;
+}
+a:hover {
+	color:#fff;
+}
+h2, h3, h4 {
+	white-space:nowrap;
+	margin:1em 0 0 0;
+}
+h3 a,
+h3 a:hover {
+	text-decoration:none;
+}
+#desc {
+	float: left;
+	margin-bottom: 1em;
+	position: relative;
+	white-space:nowrap;
+	font-size:1em;
+}
+label {
+	float: left;
+}
+pre {
+	font-family: "Courier New";
+	font-size: .85em;
+	color: #333;
+	float: left;
+	clear: both;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #eee;
+	box-shadow: inset 2px 2px 4px #ccc;
+}
+#copy {
+	position:fixed;
+	z-index:1000;
+	right:150px;
+	top:-8px;
+	font-size:.85em;
+	padding:8px 8px 2px 8px;
+	background: #323b44;
+	border: 2px solid #737c85;
+	border-radius:.7em;
+	opacity: 0.9;
+	box-shadow:0 0 8px #5f7182;
+	color:#eee
+}
+#copy a {
+	color:#ccc;
+	text-decoration:none
+}
+#copy a:hover {
+	color:#fff
+}
+#ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+	filter: alpha(opacity=80);
+	-khtml-opacity: .8;
+	-moz-opacity: .8;
+	opacity: .8;
+}
+
+#comments {
+	margin-top:50px;
+	clear:both;
+}
+
+#config {
+	margin: 0 10px;
+	padding: 0;
+	height: 370px;
+	width: 600px;
+	font-size: 10px;
+	box-shadow: inset 2px 2px 4px #ccc;
+	border: 2px solid #1978cf;
+} */

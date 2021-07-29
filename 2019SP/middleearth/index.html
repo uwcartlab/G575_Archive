@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>A Reader's Guide to Middle Earth</title>
+
+		<!--put your external stylesheet links here-->
+		<link href="https://fonts.googleapis.com/css?family=Macondo+Swash+Caps" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+        <div class="hero-image">
+            <div class="hero-text">
+               	<h1>A Reader's Guide to Middle Earth</h1>
+                    <p>This interactive map provides spoiler-free background on the various places of interest in Middle Earth. Simply click on the place name of your choosing to learn more!</p>
+            </div>
+       	</div>
+
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+		<div id="panel"></div>
+		<!--put your external script links here-->
+        <script type="text/javascript" src="lib/topojson.js"></script>
+        <script type="text/javascript" src="lib/d3.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,163 @@
+html{
+	background:url('/img/background3.jpg') no-repeat center fixed;
+	background-size: cover;
+
+}
+body {
+	margin: 0;
+	background-color: ;
+
+}
+#title{
+	text-align: center;
+}
+h1{
+	color:bisque;
+	font-family:"AlternateGothic2 BT";
+	letter-spacing: 6pt;
+
+}
+#mapid { /*#id or .class*/
+  height: 560px;
+	width: 62%;
+	margin-left: 2em;
+  display: inline-block;
+
+}
+
+.pie {
+	position: absolute;
+	top: 90px;
+  right: 50px;
+}
+
+.barchart {
+	position: absolute;
+	top: 330px;
+  right: 20px;
+}
+/* parallel ------------------------------------------------------------------------------ */
+#secondTitle{
+	width: 100%;
+	margin: 1em;
+	text-align: center;
+}
+.palette{
+	margin: 0em 0em;
+	position:relative;
+	float:right;
+  }
+#p_chartTitle{
+	float: left;
+	margin: 1em;
+	text-align: center;
+	color:bisque;
+	font-family:"AlternateGothic2 BT";
+	font-size: 22pt;
+}
+#p_chartSubTitle{
+	color:bisque;
+	font-family:"AlternateGothic2 BT";
+	margin-top: 0em;
+	font-size: 18pt;
+}
+.parallel{
+	float:left;
+	background-color:white;
+}
+.parallel-us{
+	float:left;
+	padding:0.1em;
+}
+.parallel-ca{
+	float:left;
+	padding:0.1em;
+}
+#button{
+	/* background-color: black; */
+	padding:0pt 0pt;
+}
+.axis {
+	opacity: 0.4;
+}
+.axis:hover {
+	opacity: 1;
+}
+/* Axis tick */
+.tick text,line{
+	stroke:bisque;
+	fill:bisque;
+	font-size: 12pt;
+	font-family: 'Courier New', Courier, monospace;
+}
+/* Axis */
+.domain {
+	stroke:cornsilk;
+}
+/* reset button */
+.myButton {
+	/* box-shadow: 3px 4px 0px 0px #8a2a21; */
+	background:linear-gradient(to bottom, #597ef7 5%, #ff63a7 100%);
+	border-radius:15px;
+	border:1px solid bisque;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+
+/* --------------------------------------------Search--------------------------------------- */
+/* #geocode-selector {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	z-index: 10000;
+}
+
+#geocode-selector button {
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	padding: 12px 24px;
+	margin-left: 24px;
+	font-size: 1.2em;
+	font-weight: bold;
+	transition: background-color 0.25s ease-out;
+	outline: none;
+}
+
+#geocode-selector button:hover {
+	background-color: white;
+}
+
+#geocode-selector .selected {
+	background-color: #0078A8;
+	color: white;
+}
+
+#geocode-selector .selected:hover {
+	background-color: #49e;
+} */
+
+/*----------filter----------*/
+.chart {
+    margin: 10px 10px 10px 10px;
+}
+
+.numbers {
+    fill: black;
+	font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7em;
+}
+
+.labels {
+    fill: white;
+	font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}

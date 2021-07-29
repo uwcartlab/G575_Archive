@@ -1,0 +1,378 @@
+html, body {
+	overflow-x: hidden;
+}
+
+.img-map{
+  width: 90%
+}
+.tab{
+  font-size: 20px;
+  font-family: 'Arimo';
+}
+#footer {
+  text-align: left;
+  float: left;
+  overflow: hidden;
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+.v1{
+  color: #006d2c;
+}
+.rowHover{
+  background: #006d2c;
+}
+.aboutDiv{
+  color: white;
+  height: 45px;
+  padding: 5px;
+  font-family: 'Arimo';
+  font-size: 1.25em;
+  text-decoration: none;
+  justify-content: center;
+}
+.aboutLinks{
+  color: white;
+  justify-content: center;
+  text-decoration: none;
+}
+.container-landing-page {
+  width: auto;
+  max-width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display:relative;
+  justify-content: center;
+}
+.header{
+  background:#006d2c;
+  width:100%;
+  color: white;
+  text-align: left;
+  font-size: 35px;
+  padding: 0px 20px 0px 20px;
+}
+h3{
+  font-size: 1.25em !important;
+  font-family: 'Arimo';
+}
+button p{
+  float: right;
+  margin: 0;
+  padding-left: 10px;
+}
+.navButton{
+  height:70px;
+}
+/* Place the navbar at the top of the page, and make it stick */
+.navbar1 {
+  background-color: #006d2c;
+  bottom: 0;
+  width: 100%;
+	font-size: 0;
+}
+.copyright{
+  width: 10%;
+  font-family: 'Arimo';
+  font-size: 0.8em
+}
+@media(max-width:50em){ /* Breakpoint only for mobile */
+  .copyright{
+    margin-bottom: 80px;
+    width: 50%;
+  }
+  .navbar1 {
+      color: #186c3f;
+      overflow: hidden;
+      height: 60px;
+      width: 100%;
+      bottom: 0;
+      position: fixed;
+      z-index: 5;
+    }
+  button p{
+      visibility: hidden;
+	  display:none;
+  }
+  .navbar1 button {
+      background-color: #006d2c;
+      display: block;
+      color: #f2f2f2;
+      border: solid #f2f2f2 1px;
+      width: 20%;
+      text-align: center;
+      float: left;
+      margin-top: -5px;
+    }
+  .navbar1 button.active {
+      background-color: #00441b;
+      color: white;
+    }
+		/*Tambopata title  */
+  .navbar1 span{
+    display: none;
+  }
+	/* UW logo */
+  .navbar1 a{
+    display:none;
+  }
+  .overlay {
+    visibility: hidden;
+    display:none;
+   }
+
+}
+/* Style the links inside the navigation bar */
+ul, .paragraph{
+  font-family: 'Arimo';
+  font-size: 1.2em
+}
+.navbar1 button {
+  background-color: #006d2c;
+  border-style: none;
+  display:inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 15px 20px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar1 a{
+  float: right;
+  padding: 5px 20px 0px 0px;
+}
+
+/* Change the color of links on hover */
+.navbar1 button:hover, .rowHover:hover{
+  background-color: #00441b;
+  text-decoration: none;
+}
+.aboutLink:hover{
+  text-decoration: none;
+}
+/* Add a color to the active/current link */
+.navbar1 button.active {
+  background-color: #00441b;
+  color: white;
+}
+
+#overlay-img {
+  z-index: 2;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../img/river.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.80;
+  animation: anim .75s ;
+}
+
+@-webkit-keyframes anim {
+    from {opacity: 0;}
+    to {opacity: .80;}
+  }
+
+@keyframes anim {
+    from {opacity: 0;}
+    to {opacity: .80;}
+  }
+
+#overlay {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+#overlay-div {
+  position: auto;
+  width: 50%;
+  height: 75%;
+  background: #E9ECEF;
+  transform: translate(50%,20%);
+  -ms-transform: translate(50%,50%);
+  overflow-y: auto;
+  opacity: 1;
+  font-family: "Arimo";
+}
+
+#navbar2 {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0px;
+	font-size: 0px;
+	background-color: #006d2c;
+	padding-left: 3px;
+}
+
+#navbar2 button {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-decoration: none;
+	border-style: none;
+	margin-left: 0px;
+	font-size: 18px;
+}
+
+#navbar2 button:hover {
+  /* background-color: white; */
+	background-color: #00441b;
+  /* color: black; */
+	color: white;
+}
+
+#tambopata-button {
+	background-color: #00441b;
+	color: white;
+}
+
+#assign-button,#glossary-button,#events-button {
+	background-color: #006d2c;
+	color: white;
+}
+
+#overlay-buttons-close {
+	float: right;
+	padding-left: 5px;
+	background-color: #006d2c;
+}
+h2 {
+    text-align: center;
+}
+.arimo{
+  font-family: 'Arimo' !important;
+}
+.header-bar{
+  margin-top: 5px;
+  height: 3px;
+  width: 100%;
+  background-color: #006d2c;
+  filter: drop-shadow(0 0 2px white);
+}
+.aboutHeaders{
+  color: #006d2c;
+  font-size: 3em;
+  font-family: 'Arimo';
+}
+.heading {
+	color: #006d2c;
+	font-size: 1.755em;
+	font-weight: 600;
+	padding: 20px 0 20px 0;
+	background-color: #e9ecef;
+}
+.masthead {
+  background-image: url("../img/RiverBanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  min-height: 500px;
+  opacity: 0.95
+}
+.masthead h1{
+  color: #e5f5f9;
+  text-shadow: -2px 2px 0 #006d2c, 2px 2px 0 #006d2c, 2px -2px 0 #006d2c, -2px -2px 0 #006d2c,-4px 4px 0 rgba(255,255,255,0.4), 4px 4px 0 rgba(255,255,255,0.4), 4px -4px 0 rgba(255,255,255,0.4), -4px -4px 0 rgba(255,255,255,0.4), 0 0 20px white, 0 0 15px white, 0 0 5px white;
+  font-size: 4em;
+}
+
+.masthead h2{
+  color: #e5f5f9;
+  text-shadow: -2px 2px 0 #006d2c, 2px 2px 0 #006d2c, 2px -2px 0 #006d2c, -2px -2px 0 #006d2c,-4px 4px 0 rgba(255,255,255,0.4), 4px 4px 0 rgba(255,255,255,0.4), 4px -4px 0 rgba(255,255,255,0.4), -4px -4px 0 rgba(255,255,255,0.4), 0 0 20px white, 0 0 15px white, 0 0 5px white;
+  font-size: 2.5em;
+}
+
+.iframe-container{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+/* Scoll to top button */
+#scrollBtn {
+  display: none;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #006d2c; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 14px; /* Increase font size */
+}
+/* may want to get rid of, will not work on mobile */
+#scrollBtn:hover {
+  background-color: #00441b; /* Add a dark-green background on hover */
+}
+/* fade in scroll to top button */
+#scrollBtn {
+  visibility: visible;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 2;}
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 2;}
+}
+/* scroll button for mobile*/
+@media(max-width:50em){ /* Breakpoint only for mobile */
+  #scrollBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #006d2c; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+  }
+  /* fade in scroll to top button */
+  #scrollBtn {
+    visibility: visible;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+  }
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 2;}
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 2;}
+  }
+}
