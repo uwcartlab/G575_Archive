@@ -1,0 +1,305 @@
+body {
+	background-color: #111;
+	color: #fff;
+	font-family: proxima-nova, sans-serif;
+}
+
+div{
+	margin: 0 auto;
+}
+
+p {
+	max-width: 600px;
+	font-size: 1.2em;
+	margin: 0 auto;
+}
+
+div.plot {
+	margin: 0 auto;
+	margin-top: 150px;
+	width: 100vw;
+	height: 100vh;
+  margin-bottom: 100px;
+}
+
+div.outer {
+  pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+div.inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+p.centerText {
+	font-size: 0.8em;
+	position: absolute;
+	text-align: center;
+}
+
+p.botRightText {
+	font-size: 0.8em;
+	position: absolute;
+	right: 50px;
+	bottom: 25px;
+}
+
+
+div.intro {
+	width: 100%;
+}
+
+div.title {
+	color: #fff;
+	width: 100vw;
+	height: 75vh;
+	margin: 0 auto;
+    padding-top: 25vh;
+    background-image: url("../img/car.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 0.5px 0.5px #555;
+}
+
+div.title h4,h5 {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+
+
+
+div.cloud {
+  margin-top: 75px;
+	width: 100%;
+	height: 350px;
+}
+
+
+div.beforeCloud {
+	margin-top: 75px;
+}
+
+div.beforeCloud p {
+	margin-top: 50px;
+}
+
+div.afterCloud {
+  margin: 50px;
+}
+
+div.yellowstoneMap {
+  width: 100%;
+  height: 70vh;
+}
+
+div.afterYellowstoneMap {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+#myInput {
+	font-family: proxima-nova, sans-serif;
+	width: 200px;
+	font-size: 1em;
+}
+
+div.autocomplete {
+  pointer-events: auto;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	color: #000;
+}
+
+
+div.input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+div.input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+div.input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+div.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+div.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+div.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
+div.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+
+#nextbutton {
+	float: right;
+    text-decoration: none;
+  	display: inline-block;
+  	padding: 8px 16px;
+  	background-color:#FFFFFF;
+  	border:0.16em solid #000000;
+  	box-sizing: border-box;
+}
+
+#nextbutton:hover {
+	background-color:#DDDDDD;
+}
+
+#previousbutton {
+	float: left;
+    text-decoration: none;
+  	display: inline-block;
+  	padding: 8px 16px;
+  	background-color:#FFFFFF;
+  	border:0.16em solid #000000;
+  	box-sizing: border-box;
+}
+
+#previousbutton:hover {
+	background-color:#DDDDDD;
+}
+
+div.parkname {
+  position: absolute;
+  text-align: center;
+  font-size: 1.5em;
+  width: 200px;
+  left: 40%;
+  top: 10px;
+}
+
+div.next {
+	position:absolute;
+    bottom:0;
+    right:0;
+    font: 20px;
+
+}
+div.previous {
+	position:absolute;
+    bottom:0;
+    left:0;
+    font: 20px;
+
+}
+
+div.loading {
+	font: 20px;
+}
+
+
+div.violinPhoto {
+  position: absolute;
+  left: 25px;
+  top: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../img/violin.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+div.violinPhoto p {
+  margin-top: -15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+div.yellowstoneViolin {
+  width: 100%;
+  height: 300px;
+}
+
+div.afterCloud {
+  margin-top:100px;
+}
+
+div.yellowOuter {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+div.yellowInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+div.parkChar{
+  position: absolute;
+  right: 25px;
+  top: 75px;
+  font-size: 12px;
+  text-align: right;
+}
+
+div.sidePhotos {
+  width: 85%;
+  height: 300px;
+  margin: 100px auto;
+}
+
+div.sidePhotos img{
+  display: inline-block;
+  object-fit: cover;
+  width: 49.5%;
+  height: 100%;
+
+}
+
+div.sidePhotos p{
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
